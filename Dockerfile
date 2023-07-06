@@ -12,4 +12,4 @@ WORKDIR /app
 
 COPY --from=build target/sample-*.jar ./sample.jar
 
-CMD ["java", "-jar", "./sample.jar"]
+CMD ["java", "-jar", "/sample.jar"]
